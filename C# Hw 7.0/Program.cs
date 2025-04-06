@@ -59,7 +59,6 @@
             book2.Dispose();
 
             GC.Collect();
-            GC.WaitForPendingFinalizers();
         }
     }
 }
